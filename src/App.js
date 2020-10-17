@@ -1,25 +1,12 @@
 import React from 'react';
-// import logo from './logo.svg';
-import './App.css';
-//import Fetch from './Components/Fetch';
 import ReactDOM from 'react-dom'
+import BeerFetch from './BeerFetch'
+// import './App.css';
 
-
-
-function App() {
-  let state = {
-    isClicked : false
-  }
-
-  let buttonElement = <button onClick={state.isClicked != state.isClicked}>
-    "Click me!"
-  </button>
-
-  ReactDom.render(
-    buttonElement
-  );
+const App = () => {
+  return (<div>
+    <BeerFetch />
+  </div>);
 }
-
-
-
+ 
 export default App;
