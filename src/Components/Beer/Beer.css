@@ -1,0 +1,10 @@
+.beer_image{
+    height: 200px;
+}
+
+.beer_list-item{
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: center;
+}
